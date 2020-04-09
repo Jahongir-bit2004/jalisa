@@ -1,0 +1,130 @@
+body{
+    background: #1E1E1E;
+    color: #ffffff;
+}
+
+
+
+
+
+
+#ppp{
+    width: 300px;
+}
+
+
+
+.freeButton {
+    width: 200px;
+    height: 140 ;
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 100px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    background-color: coral;
+    border: 5px solid chocolate;
+    color: white;
+    font-size: 15px;
+    box-shadow: -10px 20px 6px black;
+    transition-duration: 0.5s;
+    letter-spacing: 4px;
+    border-radius: 10px;
+
+   
+}
+
+/* .freeButton:hover{
+    width: 190px;
+    height: 80px;
+    box-shadow: 5px 10px 10px #000;
+    line-height: 10px;
+    transition-duration: 0.5s;
+    
+
+} */
+
+
+.freeButton:hover{
+    
+   margin-top: 110px;
+    box-shadow: 0px 10px 2px #000;
+    width: 180px;
+    font-size: 10px;
+    letter-spacing: 6px;
+    background-color:#FF8024 ;
+    border: 7px solid #FF6A00;
+    border-radius: 30px;
+    
+    
+    
+
+}
+
+.buterran {
+    margin: 0 auto;
+    display: block;
+   
+}
+.hone{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 7px;
+  text-align: center;
+  margin-top: 500px;
+  font-size: 50px;
+  background-color: coral;
+  border: 5px solid chocolate;
+  padding: 30px;
+  box-shadow: -10px 20px 6px black;
+
+  animation-name: jalisa;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  transition-duration: 1s;
+  
+}
+
+
+
+
+
+.hone:hover{
+   padding: 50px;
+   border: 35px solid chocolate;
+   box-shadow: 0px 10px 2px #000;
+   
+
+    
+}
+
+
+@keyframes jalisa {
+    0%{
+        margin-top: 500px;
+        border: 5px solid chocolate;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        color: coral;       
+
+    }
+    
+    50%{
+        border-radius: 30px;
+        color: coral;
+        
+    }
+    100%{
+        margin-top: 200px;
+        border: 15px solid chocolate;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-radius: 100px;
+        color: white;
+
+        
+    }
+}
